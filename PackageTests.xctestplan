@@ -1,0 +1,52 @@
+{
+  "configurations" : [
+    {
+      "id" : "6E1CF608-0410-45DA-A9B5-F4BD35E618E6",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:LocalPackages\/fetch-networking",
+        "identifier" : "NetworkHelpersTests",
+        "name" : "NetworkHelpersTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LocalPackages\/fetch-networking",
+        "identifier" : "CoreNetworkingTests",
+        "name" : "CoreNetworkingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:fetch-take-home.xcodeproj",
+        "identifier" : "1CDBAAF22D60195C002D14D6",
+        "name" : "fetch-take-homeTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LocalPackages\/fetch-networking",
+        "identifier" : "NetworkMocksTests",
+        "name" : "NetworkMocksTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LocalPackages\/fetch-recipes",
+        "identifier" : "RecipesTests",
+        "name" : "RecipesTests"
+      }
+    }
+  ],
+  "version" : 1
+}

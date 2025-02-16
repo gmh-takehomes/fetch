@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1106392D629C430027619D /* NetworkHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 1C1106382D629C430027619D /* NetworkHelpers */; };
+		1CBF9D5D2D619058009AF261 /* PackageTests.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9D5C2D619058009AF261 /* PackageTests.xctestplan */; };
+		1CBF9D5F2D619562009AF261 /* FullTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9D5E2D619562009AF261 /* FullTestPlan.xctestplan */; };
+		1CF2A5A52D6044AB0086F506 /* Recipes in Frameworks */ = {isa = PBXBuildFile; productRef = 1CF2A5A42D6044AB0086F506 /* Recipes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CDBAAF42D60195C002D14D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDBAADA2D60195A002D14D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CDBAAE12D60195A002D14D6;
+			remoteInfo = "fetch-take-home";
+		};
+		1CDBAAFE2D60195C002D14D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDBAADA2D60195A002D14D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CDBAAE12D60195A002D14D6;
+			remoteInfo = "fetch-take-home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C3C06362D61392F00288B89 /* fetch-recipes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "fetch-recipes"; sourceTree = "<group>"; };
+		1CBF9D5C2D619058009AF261 /* PackageTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PackageTests.xctestplan; sourceTree = "<group>"; };
+		1CBF9D5E2D619562009AF261 /* FullTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FullTestPlan.xctestplan; sourceTree = "<group>"; };
+		1CDBAAE22D60195A002D14D6 /* fetch-take-home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fetch-take-home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDBAAF32D60195C002D14D6 /* fetch-take-homeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fetch-take-homeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDBAAFD2D60195C002D14D6 /* fetch-take-homeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fetch-take-homeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFA88722D6138A200F895C1 /* fetch-networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "fetch-networking"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1CDBAAE42D60195A002D14D6 /* fetch-take-home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "fetch-take-home";
+			sourceTree = "<group>";
+		};
+		1CDBAAF62D60195C002D14D6 /* fetch-take-homeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "fetch-take-homeTests";
+			sourceTree = "<group>";
+		};
+		1CDBAB002D60195C002D14D6 /* fetch-take-homeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "fetch-take-homeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CDBAADF2D60195A002D14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF2A5A52D6044AB0086F506 /* Recipes in Frameworks */,
+				1C1106392D629C430027619D /* NetworkHelpers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDBAAF02D60195C002D14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDBAAFA2D60195C002D14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1106372D629C430027619D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C7356CB2D603D6F00A38242 /* LocalPackages */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C06362D61392F00288B89 /* fetch-recipes */,
+				1CFA88722D6138A200F895C1 /* fetch-networking */,
+			);
+			path = LocalPackages;
+			sourceTree = "<group>";
+		};
+		1CDBAAD92D60195A002D14D6 = {
+			isa = PBXGroup;
+			children = (
+				1CBF9D5E2D619562009AF261 /* FullTestPlan.xctestplan */,
+				1CBF9D5C2D619058009AF261 /* PackageTests.xctestplan */,
+				1CDBAAE42D60195A002D14D6 /* fetch-take-home */,
+				1CDBAAF62D60195C002D14D6 /* fetch-take-homeTests */,
+				1CDBAB002D60195C002D14D6 /* fetch-take-homeUITests */,
+				1CDBAAE32D60195A002D14D6 /* Products */,
+				1C7356CB2D603D6F00A38242 /* LocalPackages */,
+				1C1106372D629C430027619D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CDBAAE32D60195A002D14D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CDBAAE22D60195A002D14D6 /* fetch-take-home.app */,
+				1CDBAAF32D60195C002D14D6 /* fetch-take-homeTests.xctest */,
+				1CDBAAFD2D60195C002D14D6 /* fetch-take-homeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CDBAAE12D60195A002D14D6 /* fetch-take-home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDBAB072D60195C002D14D6 /* Build configuration list for PBXNativeTarget "fetch-take-home" */;
+			buildPhases = (
+				1CDBAADE2D60195A002D14D6 /* Sources */,
+				1CDBAADF2D60195A002D14D6 /* Frameworks */,
+				1CDBAAE02D60195A002D14D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1CDBAAE42D60195A002D14D6 /* fetch-take-home */,
+			);
+			name = "fetch-take-home";
+			packageProductDependencies = (
+				1CF2A5A42D6044AB0086F506 /* Recipes */,
+				1C1106382D629C430027619D /* NetworkHelpers */,
+			);
+			productName = "fetch-take-home";
+			productReference = 1CDBAAE22D60195A002D14D6 /* fetch-take-home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CDBAAF22D60195C002D14D6 /* fetch-take-homeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDBAB0A2D60195C002D14D6 /* Build configuration list for PBXNativeTarget "fetch-take-homeTests" */;
+			buildPhases = (
+				1CDBAAEF2D60195C002D14D6 /* Sources */,
+				1CDBAAF02D60195C002D14D6 /* Frameworks */,
+				1CDBAAF12D60195C002D14D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDBAAF52D60195C002D14D6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1CDBAAF62D60195C002D14D6 /* fetch-take-homeTests */,
+			);
+			name = "fetch-take-homeTests";
+			packageProductDependencies = (
+			);
+			productName = "fetch-take-homeTests";
+			productReference = 1CDBAAF32D60195C002D14D6 /* fetch-take-homeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CDBAAFC2D60195C002D14D6 /* fetch-take-homeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDBAB0D2D60195C002D14D6 /* Build configuration list for PBXNativeTarget "fetch-take-homeUITests" */;
+			buildPhases = (
+				1CDBAAF92D60195C002D14D6 /* Sources */,
+				1CDBAAFA2D60195C002D14D6 /* Frameworks */,
+				1CDBAAFB2D60195C002D14D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDBAAFF2D60195C002D14D6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1CDBAB002D60195C002D14D6 /* fetch-take-homeUITests */,
+			);
+			name = "fetch-take-homeUITests";
+			packageProductDependencies = (
+			);
+			productName = "fetch-take-homeUITests";
+			productReference = 1CDBAAFD2D60195C002D14D6 /* fetch-take-homeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CDBAADA2D60195A002D14D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					1CDBAAE12D60195A002D14D6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					1CDBAAF22D60195C002D14D6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 1CDBAAE12D60195A002D14D6;
+					};
+					1CDBAAFC2D60195C002D14D6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 1CDBAAE12D60195A002D14D6;
+					};
+				};
+			};
+			buildConfigurationList = 1CDBAADD2D60195A002D14D6 /* Build configuration list for PBXProject "fetch-take-home" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CDBAAD92D60195A002D14D6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1CF2A5A02D60449C0086F506 /* XCLocalSwiftPackageReference "LocalPackages/fetch-networking" */,
+				1CF2A5A32D6044AB0086F506 /* XCLocalSwiftPackageReference "LocalPackages/fetch-recipes" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1CDBAAE32D60195A002D14D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CDBAAE12D60195A002D14D6 /* fetch-take-home */,
+				1CDBAAF22D60195C002D14D6 /* fetch-take-homeTests */,
+				1CDBAAFC2D60195C002D14D6 /* fetch-take-homeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CDBAAE02D60195A002D14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBF9D5D2D619058009AF261 /* PackageTests.xctestplan in Resources */,
+				1CBF9D5F2D619562009AF261 /* FullTestPlan.xctestplan in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDBAAF12D60195C002D14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDBAAFB2D60195C002D14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDBAADE2D60195A002D14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDBAAEF2D60195C002D14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDBAAF92D60195C002D14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CDBAAF52D60195C002D14D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CDBAAE12D60195A002D14D6 /* fetch-take-home */;
+			targetProxy = 1CDBAAF42D60195C002D14D6 /* PBXContainerItemProxy */;
+		};
+		1CDBAAFF2D60195C002D14D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CDBAAE12D60195A002D14D6 /* fetch-take-home */;
+			targetProxy = 1CDBAAFE2D60195C002D14D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CDBAB052D60195C002D14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		1CDBAB062D60195C002D14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		1CDBAB082D60195C002D14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fetch-take-home/fetch_take_home.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fetch-take-home/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ66BJ6KYX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi2gage.fetch-take-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1CDBAB092D60195C002D14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fetch-take-home/fetch_take_home.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fetch-take-home/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ66BJ6KYX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi2gage.fetch-take-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1CDBAB0B2D60195C002D14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ66BJ6KYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi2gage.fetch-take-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetch-take-home.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetch-take-home";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1CDBAB0C2D60195C002D14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ66BJ6KYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi2gage.fetch-take-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetch-take-home.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetch-take-home";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1CDBAB0E2D60195C002D14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ66BJ6KYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi2gage.fetch-take-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "fetch-take-home";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1CDBAB0F2D60195C002D14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ66BJ6KYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi2gage.fetch-take-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "fetch-take-home";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDBAADD2D60195A002D14D6 /* Build configuration list for PBXProject "fetch-take-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDBAB052D60195C002D14D6 /* Debug */,
+				1CDBAB062D60195C002D14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDBAB072D60195C002D14D6 /* Build configuration list for PBXNativeTarget "fetch-take-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDBAB082D60195C002D14D6 /* Debug */,
+				1CDBAB092D60195C002D14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDBAB0A2D60195C002D14D6 /* Build configuration list for PBXNativeTarget "fetch-take-homeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDBAB0B2D60195C002D14D6 /* Debug */,
+				1CDBAB0C2D60195C002D14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDBAB0D2D60195C002D14D6 /* Build configuration list for PBXNativeTarget "fetch-take-homeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDBAB0E2D60195C002D14D6 /* Debug */,
+				1CDBAB0F2D60195C002D14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1CF2A5A02D60449C0086F506 /* XCLocalSwiftPackageReference "LocalPackages/fetch-networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "LocalPackages/fetch-networking";
+		};
+		1CF2A5A32D6044AB0086F506 /* XCLocalSwiftPackageReference "LocalPackages/fetch-recipes" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "LocalPackages/fetch-recipes";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C1106382D629C430027619D /* NetworkHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkHelpers;
+		};
+		1CF2A5A42D6044AB0086F506 /* Recipes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Recipes;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1CDBAADA2D60195A002D14D6 /* Project object */;
+}
